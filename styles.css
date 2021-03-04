@@ -38,3 +38,12 @@ h1 {
     overflow: auto;
     padding: 2rem;
 }
+
+/* Card Section */
+.container>.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
