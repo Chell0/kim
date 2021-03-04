@@ -75,3 +75,13 @@ h1 {
 .container>.about-section>div {
     padding: 1rem;
 }
+
+/* Footer Section */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 100;
+}
