@@ -60,3 +60,13 @@ h1 {
     font-size: 2rem;
     font-weight: 600;
 }
+
+/* About Section */
+.container>.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
