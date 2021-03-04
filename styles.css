@@ -30,3 +30,11 @@ h1 {
     align-items: center;
     padding: 1rem;
 }
+
+/* Container Section */
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+    padding: 2rem;
+}
