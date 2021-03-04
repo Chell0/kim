@@ -54,3 +54,9 @@ h1 {
     font-weight: 100;
     text-align: center;
 }
+
+/* h2 Section */
+.container>.card>h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
