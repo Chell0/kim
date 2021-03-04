@@ -70,3 +70,8 @@ h1 {
     font-size: 0.9rem;
     font-weight: 100;
 }
+
+/* About-section div */
+.container>.about-section>div {
+    padding: 1rem;
+}
