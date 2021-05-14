@@ -61,10 +61,13 @@ h1 {
 
 /* Paragraph Section */
 .container > .card p {
-  font-size: 0.8rem;
-  font-weight: 100;
+  font-size: 1.1rem;
+  font-weight: 400;
   text-align: center;
-}
+  margin-top: .75rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  }
 
 /* h2 Section */
 .container > .card > h2 {
@@ -85,6 +88,7 @@ h1 {
 /* About-section div */
 .container > .about-section > div {
   padding: 1rem;
+  font-size:1.5rem;
 }
 
 /* Footer Section */
