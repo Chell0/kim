@@ -103,6 +103,20 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* Socials Section */
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
 /* Footer Section */
 footer {
   display: flex;
@@ -111,6 +125,7 @@ footer {
   align-items: center;
   font-size: 0.8rem;
   font-weight: 100;
+  padding-top: 1rem;
 }
 
 /* Media Query Section */
