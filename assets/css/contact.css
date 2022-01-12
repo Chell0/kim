@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background: #fed;
+	font-family: "Open Sans", sans-serif;
+	color: #525f7f;
+}
+
+/* Header */
+header {
+  height: 10vh;
+}
+
+/* Navbar Section */
+nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  line-height: 100px;
+  background-color: #fed;
+}
+
+nav .wrapper {
+  position: relative;
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .logo a {
+  color: #525f7f;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.nav-links {
+  display: inline-flex;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+a {
+  color: #525f7f;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #525f7f;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.socials > a > img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__section {
+    padding: 4%;
+}
+
+.contact__section .row {
+    margin-bottom: 60px;
+}
+
+.contact__section .row h1 {
+    font-size: 700%;
+    font-weight: normal;
+}
+
+.contact__section .row p {
+    font-size: 480%;
+}
+
+.contact__section .row .white {
+    color: #000000;
+}
+
+.contact__section .row .mail {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* -------- Footer Section ------ */
+.footer .row .col {
+	padding: 6%;
+	font-size: 120%;
+}
+
+.footer__section {
+	color: #000000;
+}
+
+.contacts {
+	text-decoration: underline;
+}
+
+.socials {
+	color: #8d8d8d;
+}
+
+.socials a {
+	color: #8d8d8d;
+}
+ 
