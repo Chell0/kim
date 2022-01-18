@@ -1,141 +1,282 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 14px;
-}
-
-body {
-    background: #fed;
-	font-family: "Open Sans", sans-serif;
-	color: #525f7f;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
 }
 
 section {
-  padding: 20px 280px;
+	padding: 20px 250px;
 }
 
 section > div {
-  padding: 1rem 1rem;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+	padding: 3rem 3rem;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  border-radius:10px;
-  margin-bottom: .9rem;
+	border-radius:10px;
+	margin-bottom: 2.5rem;
 }
 
 h1 {
-  font-size: 3rem;
-  font-weight: normal;
+	font-size: 5rem;
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-h1, h2 {
-  padding-bottom: 1rem;
+	font-size: 3.5rem;
+	padding-bottom: 2rem;
 }
 
 h3 {
-  padding-bottom: 0.5rem;
+		font-size: 2rem;
+		font-weight: 800;
+		/* padding-bottom: 0.5rem; */
+		padding-top: 1rem;
+}
+
+p {
+		font-size: 1.1rem;
+		font-weight: light;
 }
 
 /* Header */
 header {
-  height: 20vh;
+	height: 10vh;
 }
 
 /* Navbar Section */
 nav {
-  position: fixed;
-  width: 100vw;
-  z-index: 1;
-  line-height: 120px;
-  background-color: #fed;
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
+	line-height: 120px;
+	background-color: #fff;
 }
 
 nav .wrapper {
-  position: relative;
-  max-width: 1140px;
-  padding: 0 30px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	position: relative;
+	max-width: 1140px;
+	padding: 0 30px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .wrapper .logo a {
-  color: #525f7f;
-  text-decoration: none;
-  font-size: 27px;
+	text-decoration: none;
+	font-size: 27px;
+	font-weight: bold;
 }
 
 .nav-links {
-  display: inline-flex;
+	display: inline-flex;
 }
 
 .nav-links li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  color: #525f7f;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 9px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  letter-spacing: 0.1em;
-  position: relative;
+	color: #525f7f;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 9px 15px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	letter-spacing: 0.1em;
+	position: relative;
 }
 
 a:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #525f7f;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #525f7f;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
 }
 
 a:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-
-.socials > a > img {
-  width: 20px;
-  height: 20px;
+	width: 100%; 
+	left: 0; 
 }
 
 p {
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
 .exhibitions {
-  font-weight: bold;
+		font-size: 1.5rem;
+		font-weight: 800;
 }
 
 
 /* Quote Section */
 .quote {
-  margin: 0;
-  background: #525f7f;
-  color: #fed;
-  padding: 1em;
-  border-radius: 1em;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	padding: 1em;
+	border-radius: 1em;
 }
 .quote figcaption,
 .quote blockquote {
-  margin: 1em;
+	margin: 1em;
 }
- 
+
+/* -------- Footer Section ------ */
+.footer .row .col {
+	padding: 8%;
+	font-size: 120%;
+}
+
+.footer__section {
+	color: #000000;
+}
+
+.contacts {
+	text-decoration: underline;
+}
+
+/* -------- Socials Section ------ */
+.socials {
+	color: #8d8d8d;
+}
+
+.socials > a {
+	color: #8d8d8d;
+}
+
+.socials > a > img {
+	width: 20px;
+	height: 20px;
+}
+
+
+/* --------- MEDIA QUERIES ---------- */
+@media screen and (max-width: 640px){
+	section {
+		padding: 20px 45px;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius:10px;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Header */
+	header {
+		height: 7vh;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.wrapper > .logo > a {
+		font-size: 1.5rem;
+	}
+
+	/* Links */
+	a {
+		font-size: 14px;
+		padding: 1px 15px;
+	}
+
+	/* Footer Section */
+	.footer .row .col {
+		padding: 3%;
+		font-size: 90%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	section {
+		padding: 20px 25px;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius:10px;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Header */
+	header {
+		height: 5vh;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+		padding-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: .9rem;
+	}
+
+	/* Navbar Section */
+	nav {
+		width: 105vw;
+	}
+	
+	nav .wrapper {
+		padding: 0 20px;
+	}
+
+	.wrapper > .logo > a {
+    	font-size: 1.09rem;
+    	margin-left: -5px;
+  	}
+
+	/* Links */
+	a {
+		font-size: 13px;
+		padding: 0px 3px;
+	}
+
+	.exhibitions {
+    	font-size: 1.2rem;
+    	font-weight: 800;
+	}
+
+	/* Footer Section */
+	.footer .row .col {
+		padding: 3%;
+		font-size: 90%;
+	}
+}
