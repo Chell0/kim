@@ -92,4 +92,65 @@ a:hover:after {
   padding-top: 1rem;
 }*/
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 640px) {
+  .wrapper .logo a {
+    font-size: 22px;
+  }
+
+  /* Links */
+  a {
+    font-size: 14px;
+    padding: 1px 15px;
+  }
+
+  /* Footer Section */
+  /* .footer .row .col {
+	  padding: 6%;
+	  font-size: 100%;
+  } */
+}
+
+@media screen and (max-width: 375px) {
+  /* Header */
+  header {
+    height: 5vh;
+  }
+
+  /* Navbar Section */
+  nav {
+    line-height: 70px;
+    width: 105vw;
+  }
+  
+  nav .wrapper {
+    padding: 0 28px;
+  }
+  
+  .wrapper .logo a {
+    font-size: 16px;
+    margin-left: -20px;
+  }
+
+  /* Links */
+  a {
+    font-size: 12px;
+    padding: 0px 4px;
+  }
+  
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  /* .container {
+    column-count: 1;
+  } */
+  
+  /* Footer Section */
+  /* .footer .row .col {
+	  padding: 6%;
+	  font-size: 100%;
+  } */
+}
 
