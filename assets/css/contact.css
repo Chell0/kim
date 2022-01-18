@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 14px;
-}
-
-body {
-    background: #fed;
-	font-family: "Open Sans", sans-serif;
-	color: #525f7f;
-}
-
 /* Header */
 header {
   height: 10vh;
@@ -25,7 +15,7 @@ nav {
   width: 100vw;
   z-index: 1;
   line-height: 100px;
-  background-color: #fed;
+  background-color: #fff;
 }
 
 nav .wrapper {
@@ -39,9 +29,9 @@ nav .wrapper {
 }
 
 .wrapper .logo a {
-  color: #525f7f;
   text-decoration: none;
   font-size: 27px;
+  font-weight: 500;
 }
 
 .nav-links {
@@ -53,7 +43,6 @@ nav .wrapper {
 }
 
 a {
-  color: #525f7f;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -82,56 +71,140 @@ a:hover:after {
   left: 0; 
 }
 
+.socials {
+  color: #8d8d8d;
+}
+
+.socials a {
+  color: #8d8d8d;
+}
+
 .socials > a > img {
   width: 20px;
   height: 20px;
 }
 
+.contacts {
+  text-decoration: underline;
+}
+
 .contact__section {
-    padding: 4%;
+  padding: 4%;
 }
 
 .contact__section .row {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .contact__section .row h1 {
-    font-size: 700%;
+    font-size: 500%;
     font-weight: normal;
 }
 
 .contact__section .row p {
-    font-size: 480%;
-}
-
-.contact__section .row .white {
-    color: #000000;
+  font-size: 380%;
 }
 
 .contact__section .row .mail {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* -------- Footer Section ------ */
 .footer .row .col {
-	padding: 6%;
-	font-size: 120%;
+  padding: 6%;
+  font-size: 120%;
 }
 
 .footer__section {
-	color: #000000;
+  color: #000000;
 }
 
-.contacts {
-	text-decoration: underline;
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 640px) {
+  header {
+    height: 5vh;
+  }
+
+  .wrapper .logo a {
+    font-size: 22px;
+  }
+
+  /* Links */
+  a {
+    font-size: 14px;
+    padding: 1px 15px;
+  }
+
+  .contact__section {
+    padding: 4%;
+  }
+
+  .contact__section .row h1 {
+    font-size: 250%;
+    font-weight: normal;
+  }
+
+  .contact__section .row p {
+    font-size: 10%;
+  }
+
+  /* Footer Section */
+  .footer .row .col {
+    padding: 3%;
+    font-size: 90%;
+  }
 }
 
-.socials {
-	color: #8d8d8d;
-}
+@media screen and (max-width: 375px) {
+  /* Header */
+  header {
+    height: 5vh;
+  }
 
-.socials a {
-	color: #8d8d8d;
+  /* Navbar Section */
+  nav {
+    width: 105vw;
+  }
+  
+  nav .wrapper {
+    padding: 0 28px;
+  }
+  
+  .wrapper .logo a {
+    font-size: 16px;
+    margin-left: -20px;
+  }
+
+  /* Links */
+  a {
+    font-size: 12px;
+    padding: 0px 4px;
+  }
+  
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .contact__section {
+    padding: 4%;
+  }
+
+  .contact__section .row h1 {
+    font-size: 200%;
+    font-weight: normal;
+  }
+
+  .contact__section .row p {
+    font-size: 130%;
+  }
+  
+  /* Footer Section */
+  .footer .row .col {
+    padding: 6%;
+    font-size: 100%;
+  }
 }
- 
