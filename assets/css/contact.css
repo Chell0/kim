@@ -191,12 +191,12 @@ a:hover:after {
   
   .contact__section {
     padding: 4%;
+    margin-top: .6rem;
   }
 
   .contact__section .row h1 {
     font-size: 200%;
     font-weight: normal;
-    margin-top: .3rem;
   }
 
   .contact__section .row p {
