@@ -125,7 +125,7 @@ a:hover:after {
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
   header {
-    height: 5vh;
+    height: 10vh;
   }
 
   .wrapper .logo a {
@@ -161,7 +161,7 @@ a:hover:after {
 @media screen and (max-width: 375px) {
   /* Header */
   header {
-    height: 5vh;
+    height: 10vh;
   }
 
   /* Navbar Section */

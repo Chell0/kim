@@ -8,12 +8,6 @@ html {
     font-size: 14px;
 }
 
-body {
-    background: #fed;
-	font-family: "Open Sans", sans-serif;
-	color: #525f7f;
-}
-
 /* Header */
 header {
   height: 10vh;
@@ -25,7 +19,7 @@ nav {
   width: 100vw;
   z-index: 1;
   line-height: 100px;
-  background-color: #fed;
+  background-color: #fff;
 }
 
 nav .wrapper {
@@ -41,7 +35,6 @@ nav .wrapper {
 /* --- Links --- */
 
 .wrapper .logo a {
-  color: #525f7f;
   text-decoration: none;
   font-size: 27px;
 }
@@ -55,7 +48,7 @@ nav .wrapper {
 }
 
 a {
-  color: #525f7f;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -110,10 +103,6 @@ a:hover:after {
 	font-size: 120%;
 }
 
-.footer__section {
-	color: #000000;
-}
-
 .contacts {
 	text-decoration: underline;
 }
@@ -143,6 +132,9 @@ a:hover:after {
 }
 
 @media screen and (max-width: 640px) {
+  header {
+    height: 10vh;
+  }
   .wrapper .logo a {
     font-size: 22px;
   }
@@ -167,7 +159,7 @@ a:hover:after {
 @media screen and (max-width: 375px) {
   /* Header */
   header {
-    height: 5vh;
+    height: 10vh;
   }
 
   /* Navbar Section */
