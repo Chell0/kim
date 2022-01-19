@@ -190,6 +190,10 @@ a:hover:after {
   .container {
     column-count: 1;
   }
+
+  .container > img { 
+  margin-bottom: 50px;
+}
   
   /* Footer Section */
   .footer .row .col {
