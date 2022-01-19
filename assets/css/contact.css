@@ -123,13 +123,15 @@ a:hover:after {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 640px) {
+/* --------- Small Tablets to Big Tablets --------*/
+@media only screen and (max-width: 1024px) {
   header {
     height: 10vh;
   }
 
   .wrapper .logo a {
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 500;
   }
 
   /* Links */
@@ -139,22 +141,119 @@ a:hover:after {
   }
 
   .contact__section {
+    padding: 20px;
+  }
+
+  .contact__section .row h1 {
+    font-size: 350%;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .contact__section .row p {
+    font-size: 250%;
+    text-align: center;
+  }
+
+  /* Footer Section */
+  .footer .row .col {
     padding: 4%;
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+/* --------- Small Phones to Small Tablets --------- */
+@media only screen and (max-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  .wrapper .logo a {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  /* Links */
+  a {
+    font-size: 14px;
+    padding: 1px 15px;
+  }
+
+  .contact__section {
+    padding: 20px;
   }
 
   .contact__section .row h1 {
     font-size: 250%;
     font-weight: normal;
+    text-align: center;
   }
 
   .contact__section .row p {
-    font-size: 10%;
+    font-size: 150%;
+    text-align: center;
   }
 
   /* Footer Section */
   .footer .row .col {
-    padding: 3%;
-    font-size: 90%;
+    padding: 4%;
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+/* ------- Small Phones -------- */
+@media screen and (max-width: 480px) {
+  /* Header */
+  header {
+    height: 10vh;
+  }
+
+  /* Navbar Section */
+  nav {
+    width: 100vw;
+  }
+  
+  nav .wrapper {
+    padding: 0 28px;
+  }
+  
+  .wrapper .logo a {
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  /* Links */
+  a {
+    font-size: 12px;
+    padding: 1px 6px;
+  }
+  
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .contact__section {
+    padding: 20px;
+  }
+
+  .contact__section .row h1 {
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .contact__section .row p {
+    font-size: 150%;
+    text-align: center;
+  }
+  
+  /* Footer Section */
+  .footer .row .col {
+    font-size: 100%;
+    text-align: center;
   }
 }
 
@@ -204,7 +303,7 @@ a:hover:after {
   
   /* Footer Section */
   .footer .row .col {
-    padding: 6%;
     font-size: 100%;
+    text-align: center;
   }
 }

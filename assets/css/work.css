@@ -123,37 +123,63 @@ a:hover:after {
  
 
 /* MEDIA QUERIES */
+/* --------- Small Tablets to Big Tablets --------- */
 @media screen and (max-width: 1024px) {
   .container {
     column-count: 3;
   }
-
-
 }
 
-@media screen and (max-width: 640px) {
+/* --------- Small Phones to Small Tablets -------- */
+@media screen and (max-width: 768px){
+	/* Footer Section */
+	.footer .row .col {
+		font-size: 100%;
+    text-align: center;
+	}
+}
+
+/* --------- Small Phones */
+@media screen and (max-width: 480px) {
   header {
-    height: 10vh;
-  }
-  .wrapper .logo a {
-    font-size: 22px;
-  }
+    	height: 10vh;
+  	}
 
-  /* Links */
-  a {
-    font-size: 14px;
-    padding: 1px 15px;
-  }
+  	/* Navbar Section */
+  	nav {
+    	line-height: 70px;
+    	width: 100vw;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 28px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 18px;
+		font-weight: normal;
+  	}
 
-  .container {
-    column-count: 2;
-  }
+  	/* Links */
+  	a {
+    	font-size: 12px;
+    	padding: 0px 6px;
+  	}
+  
+  	.socials > a > img {
+    	width: 15px;
+    	height: 15px;
+  	}
+
+	section {
+		padding: 20px 45px;
+	}
 
   /* Footer Section */
-  .footer .row .col {
-	  padding: 6%;
-	  font-size: 100%;
-  }
+	.footer .row .col {
+		font-size: 100%;
+    text-align: center;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -197,7 +223,7 @@ a:hover:after {
   
   /* Footer Section */
   .footer .row .col {
-	  padding: 6%;
 	  font-size: 100%;
+    text-align: center;
   }
 }

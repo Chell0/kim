@@ -1,126 +1,127 @@
 /* Root */
 @font-face {
-  font-family: HKGrotesk;
-  src: url("/Fonts/HKGrotesk-Medium.woff") format("woff");
+	font-family: HKGrotesk;
+	src: url("/Fonts/HKGrotesk-Medium.woff") format("woff");
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: HKGrotesk;
-  font-size: 18px;
+	font-family: HKGrotesk;
+	font-size: 18px;
 }
 
 /* Navbar Section */
 nav {
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-  /*height: 85px;*/
-  line-height: 120px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	/*height: 85px;*/
+	line-height: 120px;
 }
 
 nav .wrapper {
-  position: relative;
-  max-width: 1140px;
-  padding: 0 30px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	position: relative;
+	max-width: 1140px;
+	padding: 0 30px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .wrapper .logo a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 27px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 27px;
 }
 
 .nav-links {
-  display: inline-flex;
+	display: inline-flex;
 }
 
 .nav-links li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 9px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  letter-spacing: 0.1em;
-  position: relative;
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 9px 15px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	letter-spacing: 0.1em;
+	position: relative;
 }
 a:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #000;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #000;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
 }
 a:hover:after { 
-  width: 100%; 
-  left: 0; 
+	width: 100%; 
+	left: 0; 
 }
 
 .socials > a > img {
-  width: 20px;
-  height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 /* Footer Section */
 /*footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8rem;
-  font-weight: 100;
-  padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8rem;
+	font-weight: 100;
+	padding-top: 1rem;
 }*/
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 640px) {
-  .wrapper .logo a {
-    font-size: 22px;
-  }
+/* ---------- Small Phones to Small Tablets ---------- */
+@media screen and (max-width: 768px) {
+	.wrapper .logo a {
+		font-size: 22px;
+	}
 
-  /* Links */
-  a {
-    font-size: 14px;
-    padding: 1px 15px;
-  }
+	/* Links */
+	a {
+		font-size: 14px;
+		padding: 1px 15px;
+	}
 
-  /* Footer Section */
-  /* .footer .row .col {
-	  padding: 6%;
-	  font-size: 100%;
-  } */
+	/* Footer Section */
+	/* .footer .row .col {
+		padding: 6%;
+		font-size: 100%;
+	} */
 }
 
-@media screen and (max-width: 375px) {
-  /* Header */
-  header {
+/* --------- Small Phones to Small Tablets --------- */
+@media only screen and (max-width: 480px) {
+	header {
     height: 5vh;
   }
 
   /* Navbar Section */
   nav {
     line-height: 70px;
-    width: 105vw;
+    width: 100vw;
   }
   
   nav .wrapper {
@@ -129,28 +130,57 @@ a:hover:after {
   
   .wrapper .logo a {
     font-size: 16px;
-    margin-left: -20px;
+    /* margin-left: -20px; */
   }
 
   /* Links */
   a {
     font-size: 12px;
-    padding: 0px 4px;
+    padding: 0px 6px;
   }
   
   .socials > a > img {
     width: 15px;
     height: 15px;
   }
-  
-  /* .container {
-    column-count: 1;
-  } */
-  
-  /* Footer Section */
-  /* .footer .row .col {
-	  padding: 6%;
-	  font-size: 100%;
-  } */
+}
+
+@media only screen and (max-width: 375px) {
+	/* Header */
+	header {
+		height: 5vh;
+	}
+
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 105vw;
+	}
+	
+	nav .wrapper {
+		padding: 0 28px;
+	}
+	
+	.wrapper .logo a {
+		font-size: 16px;
+		margin-left: -20px;
+	}
+
+	/* Links */
+	a {
+		font-size: 12px;
+		padding: 0px 4px;
+	}
+	
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
+	
+	/* Footer Section */
+	/* .footer .row .col {
+		padding: 6%;
+		font-size: 100%;
+	} */
 }
 

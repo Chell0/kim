@@ -158,13 +158,14 @@ p {
 
 
 /* --------- MEDIA QUERIES ---------- */
-@media screen and (max-width: 640px){
+/* --------- Small Tablets to Big Tablets -------- */
+@media only screen and (max-width: 1024px) {
 	section {
 		padding: 20px 45px;
 	}
 
 	section > div {
-		padding: 2rem 2rem;
+		padding: 4rem 4rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 		border-radius:10px;
@@ -177,31 +178,90 @@ p {
 	}
 
 	h1 {
-		font-size: 2.5rem;
+		font-size: 3rem;
+		text-align: center;
 	}
 
 	h2 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		padding-bottom: 2rem;
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		font-weight: 800;
 		padding-top: 1rem;
 	}
 
 	p {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	.wrapper > .logo > a {
-		font-size: 1.5rem;
+		font-size: 2rem;
+		font-weight: normal;
 	}
 
 	/* Links */
 	a {
-		font-size: 14px;
+		font-size: 16px;
+		padding: 1px 15px;
+	}
+
+	/* Footer Section */
+	.footer .row .col {
+		padding: 6%;
+		font-size: 100%;
+	}
+}
+
+/* --------- Small Phones to Small Tablets --------- */
+@media only screen and (max-width: 768px){
+	section {
+		padding: 20px 45px;
+	}
+
+	section > div {
+		padding: 4rem 4rem;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius:10px;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Header */
+	header {
+		height: 10vh;
+	}
+
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+		padding-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+
+	.wrapper > .logo > a {
+		font-size: 2rem;
+		font-weight: normal;
+	}
+
+	/* Links */
+	a {
+		font-size: 16px;
 		padding: 1px 15px;
 	}
 
@@ -212,7 +272,59 @@ p {
 	}
 }
 
-@media screen and (max-width: 375px){
+/* --------- Small Phones to Small Tablets --------- */
+@media only screen and (max-width: 480px) {
+	header {
+    	height: 10vh;
+  	}
+
+  	/* Navbar Section */
+  	nav {
+    	line-height: 70px;
+    	width: 100vw;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 28px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 18px;
+		font-weight: normal;
+  	}
+
+  	/* Links */
+  	a {
+    	font-size: 12px;
+    	padding: 0px 6px;
+  	}
+  
+  	.socials > a > img {
+    	width: 15px;
+    	height: 15px;
+  	}
+
+	section {
+		padding: 10px 25px;
+		overflow: hidden;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+  	/* Footer Section */
+	.footer .row .col {
+		text-align: center;
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 375px){
 	section {
 		padding: 10px 25px;
 	}
@@ -233,6 +345,7 @@ p {
 	h1 {
 		font-size: 2.5rem;
 		font-weight: normal;
+		text-align: center;
 	}
 
 	h2 {
@@ -248,7 +361,7 @@ p {
 	}
 
 	p {
-		font-size: .8rem;
+		font-size: 1rem;
 	}
 
 	/* Navbar Section */
@@ -285,7 +398,7 @@ p {
 
 	/* Footer Section */
 	.footer .row .col {
-		padding: 6%;
 		font-size: 100%;
+		text-align: center;
 	}
 }
