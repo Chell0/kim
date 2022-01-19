@@ -190,8 +190,7 @@ a:hover:after {
   }
   
   .contact__section {
-    padding: 4%;
-    margin-top: .6rem;
+    padding: 20px;
   }
 
   .contact__section .row h1 {
