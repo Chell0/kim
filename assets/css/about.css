@@ -403,6 +403,81 @@ p {
 	}
 }
 
+@media only screen and (max-width: 428px) {
+	header {
+    	height: 10vh;
+  	}
+
+  	/* Navbar Section */
+  	nav {
+    	line-height: 70px;
+    	width: 100vw;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 20px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 17px;
+		font-weight: 500;
+  	}
+
+  	/* Links */
+  	a {
+    	font-size: 12px;
+    	padding: 1px 5px;
+  	}
+  
+  	.socials > a > img {
+    	width: 15px;
+    	height: 15px;
+  	}
+
+	section {
+		padding: 10px 20px;
+		overflow: hidden;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+		font-weight: normal;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+		font-weight: normal;
+		padding-bottom: 2rem;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+	.exhibitions {
+    	font-size: 1.5rem;
+    	font-weight: 800;
+	}
+
+  	/* Footer Section */
+	.footer .row .col {
+		text-align: center;
+		font-size: 100%;
+	}
+}
+
 @media only screen and (max-width: 414px) {
 	header {
     	height: 10vh;
@@ -475,6 +550,160 @@ p {
 	.footer .row .col {
 		text-align: center;
 		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	header {
+    	height: 10vh;
+  	}
+
+  	/* Navbar Section */
+  	nav {
+    	line-height: 70px;
+    	width: 100vw;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 20px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 15px;
+		font-weight: 500;
+  	}
+
+  	/* Links */
+  	a {
+    	font-size: 12px;
+    	padding: 1px 5px;
+  	}
+  
+  	.socials > a > img {
+    	width: 15px;
+    	height: 15px;
+  	}
+
+	section {
+		padding: 10px 20px;
+		overflow: hidden;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+		font-weight: normal;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+		font-weight: normal;
+		padding-bottom: 2rem;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+	.exhibitions {
+    	font-size: 1.5rem;
+    	font-weight: 800;
+	}
+
+  	/* Footer Section */
+	.footer .row .col {
+		text-align: center;
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 390px){
+	section {
+		padding: 10px 25px;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius:10px;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Header */
+	header {
+		height: 10vh;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		font-weight: normal;
+		padding-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		font-weight: 600;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	/* Navbar Section */
+	nav {
+    	width: 105vw;
+		line-height: 90px;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 28px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 16px;
+		font-weight: normal;
+    	margin-left: -20px;
+  	}
+
+	/* Links */
+  	a {
+    	font-size: 12px;
+    	padding: 0px 4px;
+  	}
+
+	.exhibitions {
+    	font-size: 1rem;
+    	font-weight: 800;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
+
+	/* Footer Section */
+	.footer .row .col {
+		font-size: 100%;
+		text-align: center;
 	}
 }
 
@@ -553,6 +782,84 @@ p {
 	/* Footer Section */
 	.footer .row .col {
 		font-size: 100%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	section {
+		padding: 10px 25px;
+	}
+
+	section > div {
+		padding: 2rem 2rem;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius:10px;
+		margin-bottom: 2.5rem;
+	}
+
+	/* Header */
+	header {
+		height: 10vh;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		font-weight: normal;
+		padding-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		font-weight: 600;
+		padding-top: 1rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	/* Navbar Section */
+	nav {
+    	width: 105vw;
+		line-height: 90px;
+  	}
+  
+  	nav .wrapper {
+    	padding: 0 28px;
+  	}
+  
+  	.wrapper .logo a {
+    	font-size: 15px;
+		font-weight: 500;
+  	}
+
+	/* Links */
+  	a {
+    	font-size: 11px;
+    	padding: 0px 4px;
+  	}
+
+	.exhibitions {
+    	font-size: 1rem;
+    	font-weight: 800;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
+
+	/* Footer Section */
+	.footer .row .col {
+		font-size: 80%;
 		text-align: center;
 	}
 }
