@@ -124,14 +124,28 @@ a:hover:after {
 
 /* MEDIA QUERIES */
 /* --------- Small Tablets to Big Tablets --------- */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .container {
     column-count: 3;
   }
 }
 
+@media only screen and (max-width: 896px) {
+  /* Footer Section */
+	.footer .row .col {
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 812px) {
+  /* Footer Section */
+	.footer .row .col {
+		font-size: 100%;
+	}
+}
+
 /* --------- Small Phones to Small Tablets -------- */
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	/* Footer Section */
 	.footer .row .col {
 		font-size: 100%;
@@ -140,40 +154,36 @@ a:hover:after {
 }
 
 /* --------- Small Phones */
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   header {
-    	height: 10vh;
-  	}
+    height: 10vh;
+  }
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
+  /* Navbar Section */
+  nav {
+    line-height: 70px;
+    width: 100vw;
+  }
   
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
+  nav .wrapper {
+    padding: 0 28px;
+  }
   
-  	.wrapper .logo a {
-    	font-size: 18px;
+  .wrapper .logo a {
+    font-size: 18px;
 		font-weight: normal;
-  	}
+  }
 
-  	/* Links */
-  	a {
-    	font-size: 12px;
-    	padding: 0px 6px;
-  	}
+  /* Links */
+  a {
+    font-size: 12px;
+    padding: 0px 6px;
+  }
   
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
-
-	section {
-		padding: 20px 45px;
-	}
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
 
   /* Footer Section */
 	.footer .row .col {
@@ -182,7 +192,49 @@ a:hover:after {
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
+  header {
+    height: 10vh;
+  }
+
+  /* Navbar Section */
+  nav {
+   	line-height: 70px;
+   	width: 100vw;
+  }
+  
+  nav .wrapper {
+   	padding: 0 20px;
+  }
+  
+  .wrapper .logo a {
+   	font-size: 17px;
+		font-weight: 500;
+  }
+
+  /* Links */
+  a {
+   	font-size: 12px;
+   	padding: 1px 5px;
+  }
+  
+  .socials > a > img {
+   	width: 15px;
+   	height: 15px;
+  }
+
+  .container > img { 
+    padding: 5px;
+  }
+
+  /* Footer Section */
+	.footer .row .col {
+		font-size: 100%;
+    text-align: center;
+	}
+}
+
+@media only screen and (max-width: 375px) {
   /* Header */
   header {
     height: 10vh;
