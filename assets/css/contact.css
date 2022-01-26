@@ -699,7 +699,7 @@ a:hover:after {
 @media screen and (max-width: 375px) {
   /* Header */
   header {
-    height: 10vh;
+    height: 7vh;
   }
 
   /* Navbar Section */
@@ -756,7 +756,7 @@ a:hover:after {
 @media screen and (max-width: 360px) {
   /* Header */
   header {
-    height: 10vh;
+    height: 7vh;
   }
 
   /* Navbar Section */
