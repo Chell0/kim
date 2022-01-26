@@ -1,11 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html {
-    font-size: 14px;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 /* Header */
@@ -36,7 +37,8 @@ nav .wrapper {
 
 .wrapper .logo a {
   text-decoration: none;
-  font-size: 27px;
+  font-size: 37px;
+  font-weight: 700;
 }
 
 .nav-links {
@@ -50,8 +52,7 @@ nav .wrapper {
 a {
   color: #000000;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 9px 15px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -100,7 +101,11 @@ a:hover:after {
 /* -------- Footer Section ------ */
 .footer .row .col {
 	padding: 6%;
-	font-size: 120%;
+	font-size: 100%;
+}
+
+.footer__section {
+  font-weight: 600;
 }
 
 .contacts {
@@ -128,6 +133,10 @@ a:hover:after {
   .container {
     column-count: 3;
   }
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 896px) {
@@ -135,6 +144,10 @@ a:hover:after {
 	.footer .row .col {
 		font-size: 100%;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 812px) {
@@ -142,6 +155,47 @@ a:hover:after {
 	.footer .row .col {
 		font-size: 100%;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  /* Navbar Section */
+  nav {
+    line-height: 100px;
+    width: 100vw;
+  }
+
+  nav .wrapper {
+    padding: 1px 30px;
+  }
+
+  .wrapper .logo a {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  /* Links */
+  a {
+    font-weight: 400;
+    padding: 1px 9px;
+  }
+
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Footer Section */
+  .footer .row .col {
+    font-size: 100%;
+  }
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 /* --------- Small Phones to Small Tablets -------- */
@@ -151,6 +205,10 @@ a:hover:after {
 		font-size: 100%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 /* --------- Small Phones */
@@ -190,6 +248,10 @@ a:hover:after {
 		font-size: 100%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 428px) {
@@ -204,18 +266,18 @@ a:hover:after {
   }
   
   nav .wrapper {
-   	padding: 0 20px;
+   	padding: 0 28px;
   }
   
   .wrapper .logo a {
-   	font-size: 15px;
-		font-weight: 500;
+   	font-size: 23px;
+		font-weight: 600;
   }
 
   /* Links */
   a {
-   	font-size: 11px;
-   	padding: 0px 4px;
+    font-weight: 400;
+   	padding: 1px 5px;
   }
   
   .socials > a > img {
@@ -229,9 +291,13 @@ a:hover:after {
 
   /* Footer Section */
 	.footer .row .col {
-		font-size: 80%;
+		font-size: 90%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -246,12 +312,12 @@ a:hover:after {
   }
   
   nav .wrapper {
-   	padding: 0 20px;
+   	padding: 0 25px;
   }
   
   .wrapper .logo a {
-   	font-size: 17px;
-		font-weight: 500;
+   	font-size: 22px;
+		font-weight: 600;
   }
 
   /* Links */
@@ -274,6 +340,10 @@ a:hover:after {
 		font-size: 90%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 412px) {
@@ -288,17 +358,17 @@ a:hover:after {
   }
   
   nav .wrapper {
-   	padding: 0 20px;
+   	padding: 0 29px;
   }
   
   .wrapper .logo a {
-   	font-size: 15px;
-		font-weight: 500;
+   	font-size: 22px;
+		font-weight: 600;
   }
 
   /* Links */
   a {
-   	font-size: 12px;
+    font-weight: 400;
    	padding: 1px 5px;
   }
   
@@ -316,6 +386,10 @@ a:hover:after {
 		font-size: 80%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -330,18 +404,18 @@ a:hover:after {
   }
   
   nav .wrapper {
-   	padding: 0 20px;
+   	padding: 0 25px;
   }
   
   .wrapper .logo a {
-   	font-size: 16px;
-		font-weight: 500;
+   	font-size: 19px;
+		font-weight: 600;
   }
 
   /* Links */
   a {
    	font-size: 11px;
-   	padding: 0px 4px;
+   	padding: 1px 5px;
   }
   
   .socials > a > img {
@@ -355,9 +429,59 @@ a:hover:after {
 
   /* Footer Section */
 	.footer .row .col {
-		font-size: 80%;
+		font-size: 90%;
     text-align: center;
 	}
+
+  .footer__section {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  header {
+    height: 10vh;
+  }
+
+  /* Navbar Section */
+  nav {
+    line-height: 70px;
+    width: 100vw;
+  }
+
+  nav .wrapper {
+    padding: 0 28px;
+  }
+
+  .wrapper .logo a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* Links */
+  a {
+    font-size: 11px;
+    padding: 1px 5px;
+  }
+
+  .socials > a > img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .container > img {
+    padding: 5px;
+  }
+
+  /* Footer Section */
+  .footer .row .col {
+    font-size: 90%;
+    text-align: center;
+  }
+
+  .footer__section {
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -368,7 +492,7 @@ a:hover:after {
 
   /* Navbar Section */
   nav {
-    width: 105vw;
+    width: 100vw;
   }
   
   nav .wrapper {
@@ -376,14 +500,14 @@ a:hover:after {
   }
   
   .wrapper .logo a {
-    font-size: 16px;
-    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   /* Links */
   a {
     font-size: 12px;
-    padding: 0px 4px;
+    padding: 1px 5px;
   }
   
   .socials > a > img {
@@ -401,8 +525,12 @@ a:hover:after {
   
   /* Footer Section */
   .footer .row .col {
-	  font-size: 80%;
+	  font-size: 90%;
     text-align: center;
+  }
+
+  .footer__section {
+    font-weight: 600;
   }
 }
 
@@ -414,21 +542,22 @@ a:hover:after {
 
   /* Navbar Section */
   nav {
-    width: 105vw;
+    width: 100vw;
   }
   
   nav .wrapper {
-    padding: 0 28px;
+    padding: 1px 30px;
   }
   
   .wrapper .logo a {
-    font-size: 15px;
+    font-size: 21px;
+    font-weight: 600;
   }
 
   /* Links */
   a {
     font-size: 11px;
-    padding: 0px 4px;
+    padding: 1px 6px;
   }
   
   .socials > a > img {
@@ -446,8 +575,12 @@ a:hover:after {
   
   /* Footer Section */
   .footer .row .col {
-	  font-size: 80%;
+	  font-size: 90%;
     text-align: center;
+  }
+
+  .footer__section {
+    font-weight: 600;
   }
 }
 
