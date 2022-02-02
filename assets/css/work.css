@@ -12,13 +12,14 @@ body {
 /* Header */
 header {
   height: 10vh;
+  margin-bottom: 80px;
 }
 
 /* Navbar Section */
 nav {
   position: fixed;
   width: 100vw;
-  z-index: 1;
+  z-index: 999;
   line-height: 100px;
   background-color: #fff;
 }
@@ -84,18 +85,57 @@ a:hover:after {
   column-gap: 20px;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 50px;
+  position: relative;
+
 }
 
-.container > img { 
+.container > .box {
+  position: relative;
+  transition: 0.5s
+}
+
+.container > .box > .img__box > img { 
   width: 100%;
   height: auto;
   display: block;
   margin-bottom: 20px;
-  padding: 10px;
-  background: #fff;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(75, 79, 82, 0.3) 0px 1px 2px 0px,
+  rgba(53, 58, 62, 0.15) 0px 1px 3px 1px;
+}
+
+.container > .box > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  padding: 7px;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.container > .box > .content > div {
+  background: #0000008a;
+  padding: 5px;
+  line-height: 1.3;
+}
+
+.container > .box > .content > div > h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.container > .box > .content > div > p {
+  color: #fff;
+  font-size: 10px;
+}
+
+hr {
+  margin-top: 50px;
 }
 
 /* -------- Footer Section ------ */
@@ -162,6 +202,10 @@ a:hover:after {
 }
 
 @media only screen and (max-width: 810px) {
+  header {
+    margin-bottom: 5px;
+  }
+
   /* Navbar Section */
   nav {
     line-height: 100px;
@@ -187,6 +231,19 @@ a:hover:after {
     width: 15px;
     height: 15px;
   }
+
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 13px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 10px;
+  } 
 
   /* Footer Section */
   .footer .row .col {
@@ -257,6 +314,7 @@ a:hover:after {
 @media only screen and (max-width: 428px) {
   header {
     height: 10vh;
+    margin-bottom: 1px;
   }
 
   /* Navbar Section */
@@ -285,8 +343,21 @@ a:hover:after {
    	height: 15px;
   }
 
-  .container > img { 
+  .container {
+    column-count: 2;
+  }
+
+  .container > .box > .content > div {
     padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 11px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 8px;
   }
 
   /* Footer Section */
@@ -331,9 +402,22 @@ a:hover:after {
    	height: 15px;
   }
 
-  .container > img { 
-    padding: 5px;
+  .container {
+    column-count: 2;
   }
+
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 11px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 8px;
+  } 
 
   /* Footer Section */
 	.footer .row .col {
@@ -349,6 +433,7 @@ a:hover:after {
 @media only screen and (max-width: 412px) {
   header {
     height: 10vh;
+    margin-bottom: 5px;
   }
 
   /* Navbar Section */
@@ -377,9 +462,26 @@ a:hover:after {
    	height: 15px;
   }
 
+  .container {
+    column-count: 2;
+  }
+
   .container > img { 
     padding: 5px;
   }
+
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 11px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 8px;
+  }  
 
   /* Footer Section */
 	.footer .row .col {
@@ -423,8 +525,17 @@ a:hover:after {
    	height: 15px;
   }
 
-  .container > img { 
+  .container > .box > .content > div {
     padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 10px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 6.5px;
   }
 
   /* Footer Section */
@@ -473,6 +584,19 @@ a:hover:after {
     padding: 5px;
   }
 
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 10px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 7px;
+  } 
+
   /* Footer Section */
   .footer .row .col {
     font-size: 90%;
@@ -519,9 +643,18 @@ a:hover:after {
     column-count: 1;
   }
 
-  .container > img { 
-  margin-bottom: 50px;
-}
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 15px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 13px;
+  } 
   
   /* Footer Section */
   .footer .row .col {
@@ -538,6 +671,7 @@ a:hover:after {
   /* Header */
   header {
     height: 10vh;
+    margin-bottom: 5px;
   }
 
   /* Navbar Section */
@@ -572,6 +706,20 @@ a:hover:after {
   .container > img { 
     margin-bottom: 50px;
   }
+
+  .container > .box > .content > div {
+    padding: 5px;
+    line-height: 1.3;
+  }
+
+  .container > .box > .content > div > h2 {
+    font-size: 13px;
+  }
+
+  .container > .box > .content > div > p {
+    font-size: 11px;
+  }  
+
   
   /* Footer Section */
   .footer .row .col {
