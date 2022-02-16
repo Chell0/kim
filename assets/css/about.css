@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 14px;
 }
 
@@ -17,7 +17,7 @@ section > div {
 	padding: 3rem 3rem;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-	border-radius:10px;
+	border-radius: 10px;
 	margin-bottom: 2.5rem;
 }
 
@@ -85,7 +85,7 @@ nav .wrapper {
 a {
 	color: #000000;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 600;
 	padding: 9px 15px;
 	border-radius: 5px;
 	transition: all 0.3s ease;
@@ -93,7 +93,7 @@ a {
 	position: relative;
 }
 
-a:after {    
+a:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
 	content: "";
@@ -106,16 +106,15 @@ a:after {
 	width: 0;
 }
 
-a:hover:after { 
+a:hover:after {
 	width: 85%;
-	left: 0; 
+	left: 0;
 }
 
 .exhibitions {
 	font-size: 1.5rem;
 	font-weight: 800;
 }
-
 
 /* Quote Section */
 .quote {
@@ -160,7 +159,6 @@ a:hover:after {
 	height: 20px;
 }
 
-
 /* --------- MEDIA QUERIES ---------- */
 /* --------- Small Tablets to Big Tablets -------- */
 @media only screen and (max-width: 1024px) {
@@ -171,8 +169,8 @@ a:hover:after {
 	section > div {
 		padding: 4rem 4rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -210,6 +208,7 @@ a:hover:after {
 	/* Links */
 	a {
 		font-size: 16px;
+		font-weight: 600;
 		padding: 1px 15px;
 	}
 
@@ -226,34 +225,35 @@ a:hover:after {
 
 @media only screen and (max-width: 812px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 27px;
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 100vw;
+	}
+
+	nav .wrapper {
+		padding: 0 28px;
+	}
+
+	.wrapper .logo a {
+		font-size: 27px;
 		font-weight: 500;
-  	}
+	}
 
-  	/* Links */
-  	a {
-    	font-size: 16px;
-    	padding: 1px 6px;
-  	}
-  
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	/* Links */
+	a {
+		font-size: 16px;
+		font-weight: 600;
+		padding: 1px 6px;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 25px;
@@ -289,15 +289,16 @@ a:hover:after {
 	}
 
 	.exhibitions {
-    	font-size: 2rem;
-    	font-weight: 800;
+		font-size: 2rem;
+		font-weight: 800;
 	}
 
-	.quote figcaption, .quote blockquote {
+	.quote figcaption,
+	.quote blockquote {
 		font-size: 1.5rem;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		padding: 3.5%;
 		font-size: 100%;
@@ -310,35 +311,35 @@ a:hover:after {
 
 @media only screen and (max-width: 810px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 90px;
-    	width: 100vw;
-  	}
+	/* Navbar Section */
+	nav {
+		line-height: 90px;
+		width: 100vw;
+	}
 
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
+	nav .wrapper {
+		padding: 0 28px;
+	}
 
-  	.wrapper .logo a {
-    	font-size: 37px;
+	.wrapper .logo a {
+		font-size: 37px;
 		font-weight: 700;
-  	}
+	}
 
-  	/* Links */
-  	a {
-  		font-size: 1rem;
-  		font-weight: 400;
-    	padding: 1px 8px;
-  	}
+	/* Links */
+	a {
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 1px 8px;
+	}
 
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 25px;
@@ -374,16 +375,17 @@ a:hover:after {
 	}
 
 	.exhibitions {
-    	font-size: 1.5rem;
-    	font-weight: 600;
+		font-size: 1.5rem;
+		font-weight: 600;
 	}
 
-	.quote blockquote, .quote figcaption {
+	.quote blockquote,
+	.quote figcaption {
 		font-size: 1.1rem;
 		font-weight: 100;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		padding: 3.5%;
 		font-size: 100%;
@@ -395,7 +397,7 @@ a:hover:after {
 }
 
 /* --------- Small Phones to Small Tablets --------- */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 	section {
 		padding: 20px 45px;
 	}
@@ -403,8 +405,8 @@ a:hover:after {
 	section > div {
 		padding: 4rem 4rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -442,6 +444,7 @@ a:hover:after {
 	/* Links */
 	a {
 		font-size: 16px;
+		font-weight: 600;
 		padding: 1px 15px;
 	}
 
@@ -459,34 +462,35 @@ a:hover:after {
 /* --------- Small Phones to Small Tablets --------- */
 @media only screen and (max-width: 480px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 18px;
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 100vw;
+	}
+
+	nav .wrapper {
+		padding: 0 28px;
+	}
+
+	.wrapper .logo a {
+		font-size: 18px;
 		font-weight: normal;
-  	}
+	}
 
-  	/* Links */
-  	a {
-    	font-size: 12px;
-    	padding: 0px 6px;
-  	}
-  
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	/* Links */
+	a {
+		font-size: 12px;
+		font-weight: 600;
+		padding: 0px 6px;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 25px;
@@ -502,7 +506,7 @@ a:hover:after {
 		font-weight: 200;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		text-align: center;
 		font-size: 100%;
@@ -515,33 +519,34 @@ a:hover:after {
 
 @media only screen and (max-width: 428px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 25px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 23px;
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 100vw;
+	}
+
+	nav .wrapper {
+		padding: 0 25px;
+	}
+
+	.wrapper .logo a {
+		font-size: 23px;
 		font-weight: 600;
-  	}
+	}
 
-  	/* Links */
-  	a {
-    	padding: 1px 6px;
-  	}
-  
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	/* Links */
+	a {
+		padding: 1px 6px;
+		font-weight: 600;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 20px;
@@ -577,11 +582,11 @@ a:hover:after {
 	}
 
 	.exhibitions {
-    	font-size: 1.5rem;
-    	font-weight: 600;
+		font-size: 1.5rem;
+		font-weight: 600;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		text-align: center;
 		font-size: 100%;
@@ -594,35 +599,35 @@ a:hover:after {
 
 @media only screen and (max-width: 414px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 20px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 20px;
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 100vw;
+	}
+
+	nav .wrapper {
+		padding: 0 20px;
+	}
+
+	.wrapper .logo a {
+		font-size: 20px;
 		font-weight: 600;
-  	}
+	}
 
-  	/* Links */
-  	a {
-    	font-size: 12px;
-    	font-weight: 200;
-    	padding: 1px 5px;
-  	}
-  
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	/* Links */
+	a {
+		font-size: 12px;
+		font-weight: 600;
+		padding: 1px 5px;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 20px;
@@ -658,11 +663,11 @@ a:hover:after {
 	}
 
 	.exhibitions {
-    	font-size: 1.3rem;
-    	font-weight: 600;
+		font-size: 1.3rem;
+		font-weight: 600;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		text-align: center;
 		font-size: 100%;
@@ -675,34 +680,35 @@ a:hover:after {
 
 @media only screen and (max-width: 412px) {
 	header {
-    	height: 10vh;
-  	}
+		height: 10vh;
+	}
 
-  	/* Navbar Section */
-  	nav {
-    	line-height: 70px;
-    	width: 100vw;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 20px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 21px;
+	/* Navbar Section */
+	nav {
+		line-height: 70px;
+		width: 100vw;
+	}
+
+	nav .wrapper {
+		padding: 0 20px;
+	}
+
+	.wrapper .logo a {
+		font-size: 21px;
 		font-weight: 700;
-  	}
+	}
 
-  	/* Links */
-  	a {
-    	font-size: 12px;
-    	padding: 1px 6px;
-  	}
-  
-  	.socials > a > img {
-    	width: 15px;
-    	height: 15px;
-  	}
+	/* Links */
+	a {
+		font-size: 12px;
+		padding: 1px 6px;
+		font-weight: 600;
+	}
+
+	.socials > a > img {
+		width: 15px;
+		height: 15px;
+	}
 
 	section {
 		padding: 10px 20px;
@@ -733,31 +739,31 @@ a:hover:after {
 	}
 
 	p {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-weight: 200;
 	}
 
 	.exhibitions {
-    	font-size: 1.3rem;
-    	font-weight: 600;
+		font-size: 1.3rem;
+		font-weight: 600;
 	}
 
 	.quote > blockquote {
 		font-size: 1.1rem;
 	}
 
-  	/* Footer Section */
+	/* Footer Section */
 	.footer .row .col {
 		text-align: center;
 		font-size: 100%;
 	}
 
 	.footer__section {
-		font-weight:  600;
+		font-weight: 600;
 	}
 }
 
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 390px) {
 	section {
 		padding: 10px 25px;
 	}
@@ -765,8 +771,8 @@ a:hover:after {
 	section > div {
 		padding: 2rem 2rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -793,38 +799,37 @@ a:hover:after {
 		padding-top: 1rem;
 	}
 
-
 	/* Paragraph */
 	p {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-weight: 200;
 	}
 
 	/* Navbar Section */
 	nav {
-    	width: 100vw;
+		width: 100vw;
 		line-height: 90px;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 23px;
+	}
+
+	nav .wrapper {
+		padding: 0 28px;
+	}
+
+	.wrapper .logo a {
+		font-size: 23px;
 		font-weight: 600;
-  	}
+	}
 
 	/* Links */
-  	a {
-    	font-size: 12px;
-    	font-weight: 200;
-    	padding: 1px 5px;
-  	}
+	a {
+		font-size: 12px;
+		font-weight: 600;
+		padding: 1px 5px;
+	}
 
 	.exhibitions {
-    	font-size: 1.3rem;
-    	font-weight: 800;
+		font-size: 1.3rem;
+		font-weight: 800;
 	}
 
 	.socials > a > img {
@@ -843,7 +848,7 @@ a:hover:after {
 	}
 }
 
-@media only screen and (max-width: 384px){
+@media only screen and (max-width: 384px) {
 	section {
 		padding: 10px 25px;
 	}
@@ -851,8 +856,8 @@ a:hover:after {
 	section > div {
 		padding: 2rem 2rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -880,34 +885,35 @@ a:hover:after {
 	}
 
 	p {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-weight: 200;
 	}
 
 	/* Navbar Section */
 	nav {
-    	width: 100vw;
+		width: 100vw;
 		line-height: 80px;
-  	}
+	}
 
-  	nav .wrapper {
-    	padding: 0 25px;
-  	}
+	nav .wrapper {
+		padding: 0 25px;
+	}
 
-  	.wrapper .logo a {
-    	font-size: 19px;
+	.wrapper .logo a {
+		font-size: 19px;
 		font-weight: 700;
-  	}
+	}
 
 	/* Links */
-  	a {
-    	font-size: 12px;
-    	padding: 1px 5px;
-  	}
+	a {
+		font-size: 12px;
+		padding: 1px 5px;
+		font-weight: 600;
+	}
 
 	.exhibitions {
-    	font-size: 1.2rem;
-    	font-weight: 600;
+		font-size: 1.2rem;
+		font-weight: 600;
 	}
 
 	.socials > a > img {
@@ -926,7 +932,7 @@ a:hover:after {
 	}
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
 	section {
 		padding: 10px 25px;
 	}
@@ -934,8 +940,8 @@ a:hover:after {
 	section > div {
 		padding: 2rem 2rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -963,34 +969,34 @@ a:hover:after {
 	}
 
 	p {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-weight: 200;
 	}
 
 	/* Navbar Section */
 	nav {
-    	width: 100vw;
+		width: 100vw;
 		line-height: 70px;
-  	}
-  
-  	nav .wrapper {
-    	padding: 0 28px;
-  	}
-  
-  	.wrapper .logo a {
-    	font-size: 26px;
+	}
+
+	nav .wrapper {
+		padding: 0 28px;
+	}
+
+	.wrapper .logo a {
+		font-size: 26px;
 		font-weight: 600;
-  	}
+	}
 
 	/* Links */
-  	a {
-    	font-weight: 400;
-    	padding: 1px 5px;
-  	}
+	a {
+		font-weight: 600;
+		padding: 1px 5px;
+	}
 
 	.exhibitions {
-    	font-size: 1.2rem;
-    	font-weight: 600;
+		font-size: 1.2rem;
+		font-weight: 600;
 	}
 
 	.socials > a > img {
@@ -1009,7 +1015,7 @@ a:hover:after {
 	}
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px) {
 	section {
 		padding: 10px 25px;
 	}
@@ -1017,8 +1023,8 @@ a:hover:after {
 	section > div {
 		padding: 2rem 2rem;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-		border-radius:10px;
+			rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		border-radius: 10px;
 		margin-bottom: 2.5rem;
 	}
 
@@ -1046,34 +1052,35 @@ a:hover:after {
 	}
 
 	p {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-weight: 200;
 	}
 
 	/* Navbar Section */
 	nav {
-    	width: 103vw;
+		width: 103vw;
 		line-height: 90px;
-  	}
+	}
 
-  	nav .wrapper {
-    	padding: 0px 30px;
-  	}
+	nav .wrapper {
+		padding: 0px 30px;
+	}
 
-  	.wrapper .logo a {
-    	font-size: 19px;
+	.wrapper .logo a {
+		font-size: 19px;
 		font-weight: 700;
-  	}
+	}
 
 	/* Links */
-  	a {
-    	font-size: 12px;
-    	padding: 1px 6px;
-  	}
+	a {
+		font-size: 12px;
+		padding: 1px 6px;
+		font-weight: 600;
+	}
 
 	.exhibitions {
-    	font-size: 1.1rem;
-    	font-weight: 600;
+		font-size: 1.1rem;
+		font-weight: 600;
 	}
 
 	.socials > a > img {
