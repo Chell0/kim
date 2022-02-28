@@ -39,7 +39,7 @@ h3 {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	font-weight: 200;
 	list-style: 1.5;
 }
@@ -107,7 +107,7 @@ a:after {
 }
 
 a:hover:after {
-	width: 85%;
+	width: 100%;
 	left: 0;
 }
 
@@ -132,7 +132,7 @@ a:hover:after {
 
 /* -------- Footer Section ------ */
 .footer .row .col {
-	padding: 8%;
+	padding: 3%;
 	font-size: 100%;
 }
 
@@ -143,6 +143,10 @@ a:hover:after {
 
 .contacts {
 	text-decoration: underline;
+}
+
+.contact__me {
+	padding-left: 13px;
 }
 
 /* -------- Socials Section ------ */

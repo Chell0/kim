@@ -29,10 +29,9 @@ nav .wrapper {
 }
 
 .wrapper .logo a {
-	color: #000000;
 	text-decoration: none;
 	font-size: 37px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .nav-links {
@@ -53,6 +52,7 @@ a {
 	letter-spacing: 0.1em;
 	position: relative;
 }
+
 a:after {    
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
@@ -61,12 +61,13 @@ a:after {
 	height: 2px;
 	left: 50%;
 	position: absolute;
-	background: #000;
+	background: #525f7f;
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
 	width: 0;
 }
+
 a:hover:after { 
-	width: 90%;
+	width: 100%;
 	left: 0; 
 }
 

@@ -34,8 +34,6 @@ nav .wrapper {
 	justify-content: space-between;
 }
 
-/* --- Links --- */
-
 .wrapper .logo a {
 	text-decoration: none;
 	font-size: 37px;
@@ -145,16 +143,21 @@ a:hover:after {
 
 /* -------- Footer Section ------ */
 .footer .row .col {
-	padding: 4%;
+	padding: 3%;
 	font-size: 100%;
 }
 
 .footer__section {
+	color: #000000;
 	font-weight: 600;
 }
 
 .contacts {
 	text-decoration: underline;
+}
+
+.contact__me {
+	padding-left: 13px;
 }
 
 /* -------- Socials Section ------ */
